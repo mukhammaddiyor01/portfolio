@@ -6,7 +6,7 @@ Live website: https://mukhammaddiyor01.github.io/portfolio/
 
 ## Development
 
-Use Node.js 22 and npm.
+Use Node.js 22 and npm. Run `nvm use` to select the version in `.nvmrc`.
 
 ```sh
 npm ci
