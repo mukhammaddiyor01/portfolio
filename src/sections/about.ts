@@ -1,0 +1,3 @@
+export function renderAbout(): string {
+  return `<section id="about" class="section container"><p class="section-label reveal">About</p><h2 class="reveal">Thoughtful interfaces.<br>Well-built systems.</h2><p class="section-description reveal">I’m Mukhammaddiyor, a Full-Stack Developer based in Samcheok, Gangwon-do, South Korea. I connect clear, responsive interfaces with the APIs and data that make them work, bringing experience in frontend, backend and DevOps.</p><div class="languages reveal"><h3>Languages</h3><div class="language-list"><span>English <b>C1</b></span><span>Korean <b>B2</b></span><span>Russian <b>B1–B2</b></span><span>Uzbek <b>Native</b></span></div></div></section>`;
+}

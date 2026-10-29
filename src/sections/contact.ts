@@ -1,0 +1,5 @@
+import { contact } from '../profile';
+
+export function renderContact(): string {
+  return `<section id="contact" class="section contact container"><p class="section-label reveal">Contact</p><h2 class="reveal">Let’s build<br>something together.</h2><div class="actions reveal"><a class="button primary" href="mailto:${contact.email}">Email Me</a><a class="button secondary" href="https://t.me/IMR0208" target="_blank" rel="noopener noreferrer">Message on Telegram</a></div><div class="contact-details reveal"><a class="email" href="mailto:${contact.email}">${contact.email}</a><a class="phone" href="tel:+821066496777">+82 10-6649-6777</a><p class="location">Samcheok-si, Gangwon-do · South Korea</p><div class="socials"><a href="https://github.com/mukhammaddiyor01" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/mukhammaddiyor01" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://www.instagram.com/muhammaddiyor_shavkatbek" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://t.me/IMR0208" target="_blank" rel="noopener noreferrer">Telegram</a></div></div></section>`;
+}

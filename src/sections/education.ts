@@ -1,0 +1,3 @@
+export function renderEducation(): string {
+  return `<section id="education" class="section container"><p class="section-label reveal">Education</p><div class="education-list"><article class="education-card reveal"><div><h3>Kangwon National University</h3><p>English Department</p></div><span class="date">2026 – Present</span></article><article class="education-card reveal"><div><h3>Kangwon National University</h3><p>Software and Media Engineering &amp; English Department</p><p class="capstone">Capstone Project: <strong>Pose Correction App</strong></p></div><span class="date">2020 – 2026</span></article></div></section>`;
+}
