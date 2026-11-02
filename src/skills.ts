@@ -5,156 +5,113 @@ export interface SkillGroup {
 
 export const skillGroups: readonly SkillGroup[] = [
   {
-    "title": "Front-End",
+    "title": "Full-Stack",
     "items": [
-      "HTML",
-      "CSS",
-      "SASS",
       "JavaScript",
       "TypeScript",
-      "EJS",
-      "ReactJS",
+      "Python",
+      "React",
       "Next.js",
-      "React Native",
-      "Redux",
       "Redux Toolkit",
-      "Axios",
-      "jQuery",
-      "Socket.IO Client",
-      "SweetAlert2",
-      "Sonner",
-      "Anime.js",
-      "React Router DOM",
-      "Swiper",
-      "Framer Motion",
-      "Material UI",
-      "Emotion",
-      "styled-components",
-      "Apollo Client",
-      "TanStack Query",
-      "i18next",
-      "React i18next",
-      "Next i18next",
-      "Toast UI Editor",
-      "Chart.js",
-      "React Spring",
-      "React Slick",
-      "Three.js",
-      "React Three Fiber",
-      "Drei"
-    ]
-  },
-  {
-    "title": "Back-End",
-    "items": [
+      "HTML",
+      "CSS / SCSS",
       "Node.js",
       "Express",
       "NestJS",
+      "FastAPI",
       "REST APIs",
       "GraphQL",
-      "Python",
-      "FastAPI",
+      "Apollo",
       "MongoDB",
       "Mongoose",
       "PostgreSQL",
-      "Prisma",
-      "MySQL",
-      "Multer",
       "JWT",
-      "bcryptjs",
-      "Socket.IO",
-      "cookie-parser",
-      "dotenv",
-      "form-data",
-      "Apollo Server",
-      "WebSockets",
-      "GraphQL Subscriptions",
-      "RxJS",
-      "class-validator",
-      "class-transformer",
-      "Express Sessions",
-      "Google OAuth",
-      "Uvicorn",
-      "Pydantic",
-      "Jinja2",
-      "Argon2",
-      "Task Scheduling"
-    ]
-  },
-  {
-    "title": "Data",
-    "items": [
-      "MongoDB",
-      "Mongoose",
-      "API Integration",
-      "Data Modeling"
-    ]
-  },
-  {
-    "title": "Workflow",
-    "items": [
-      "Git",
-      "GitHub",
-      "Frontend & Backend",
-      "Responsive Design",
-      "npm",
-      "Yarn"
+      "Socket.IO"
     ]
   },
   {
     "title": "DevOps",
     "items": [
+      "Linux (Ubuntu)",
+      "Nginx",
+      "DNS",
       "Docker",
       "Docker Compose",
-      "GitHub Actions"
+      "PM2",
+      "GitHub Actions",
+      "GitHub Pages",
+      "Render"
     ]
   },
   {
-    "title": "Mobile & Vision",
+    "title": "Agentic Development",
     "items": [
-      "Kotlin",
-      "Android",
-      "AndroidX",
+      "Codex",
+      "Cursor",
+      "AI-assisted implementation",
+      "Task decomposition",
+      "Context management",
+      "Debugging",
+      "Testing",
+      "Code review"
+    ]
+  },
+  {
+    "title": "AI Engineering",
+    "items": [
+      "RAG",
+      "Gemini API",
+      "BGE embeddings",
+      "ONNX Runtime",
+      "PDF extraction",
+      "Semantic retrieval",
+      "Context management",
+      "Source validation"
+    ]
+  },
+  {
+    "title": "AI / ML & Vision",
+    "items": [
+      "PyTorch",
+      "OpenCV",
       "MediaPipe",
-      "CameraX",
-      "Room",
-      "LiveData",
-      "ViewModel",
-      "Gradle",
-      "JUnit",
-      "Espresso"
+      "YOLOX",
+      "torchvision",
+      "NumPy",
+      "pandas",
+      "Matplotlib",
+      "MobileNet",
+      "Google Colab"
     ]
   },
   {
-    "title": "Testing & Quality",
+    "title": "Architecture & Security",
     "items": [
-      "Jest",
-      "Supertest",
-      "React Testing Library",
+      "MVC",
+      "Middleware",
+      "Dependency Injection",
+      "Decorators",
+      "Role-based access control",
+      "Session authentication",
+      "Input validation"
+    ]
+  },
+  {
+    "title": "Tools & Testing",
+    "items": [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Postman",
+      "npm",
+      "Yarn",
+      "NVM",
+      "Figma",
+      "MongoDB Compass",
       "pytest",
-      "pytest-asyncio",
-      "HTTPX",
-      "Ruff",
-      "mypy",
-      "ESLint",
-      "Prettier"
-    ]
-  },
-  {
-    "title": "Exploring",
-    "items": [
-      "Python",
-      "AI-assisted Development",
-      "NestJS Architecture"
-    ]
-  },
-  {
-    "title": "Focus",
-    "items": [
-      "Healthcare Platforms",
-      "E-commerce",
-      "Seller Dashboards",
-      "Web Applications"
+      "unittest",
+      "Jest",
+      "React Testing Library"
     ]
   }
 ];
